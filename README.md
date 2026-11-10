@@ -1,6 +1,6 @@
 # Congresso Acadêmico 2026
 
-Aplicativo mobile em Flutter para um congresso acadêmico, desenvolvido como **atividade da aula de Desenvolvimento Mobile**.
+Aplicativo mobile em Flutter para um congresso acadêmico, desenvolvido como **atividade da aula de Desenvolvimento Mobile inspirado no Congresso Estudantil de Pesquisa e Pós-graduação do UNIMAM (CEPP)**.
 
 ## Funcionalidades
 
