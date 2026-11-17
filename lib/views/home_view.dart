@@ -8,6 +8,7 @@ import '../viewmodels/papers_viewmodel.dart';
 import '../viewmodels/programacao_viewmodel.dart';
 import '../widgets/modulo_card.dart';
 import 'agenda/agenda_view.dart';
+import 'congresso/congresso_unimam_view.dart';
 import 'inscricoes/inscricao_home_view.dart';
 import 'palestrantes/palestrantes_list_view.dart';
 import 'programacao/programacao_view.dart';
@@ -106,6 +107,12 @@ class HomeView extends StatelessWidget {
                       ),
                     ),
                   ),
+                ),
+                ModuloCard(
+                  icone: Icons.campaign_rounded,
+                  titulo: 'Congresso UNIMAM',
+                  descricao: 'Palestras, avisos e credencial',
+                  onTap: () => _abrir(context, const CongressoUnimamView()),
                 ),
               ]),
             ),
